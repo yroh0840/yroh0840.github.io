@@ -1,8 +1,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  min-width: 1024px;
 }
 
 header {
@@ -13,10 +12,11 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 header h1 {
-  font-size: 80px;
+  font-size: 100px;
   margin: 0;
   line-height: 50px;
   text-align: center;
@@ -31,6 +31,7 @@ main {
   flex: 1;
   text-align: center;
   background: rgb(245, 244, 244);
+
 }
 
 main nav ul {
@@ -91,6 +92,9 @@ section h1 {
   margin: 0 30px 20px 0;
 }
 
+.contact p {
+  font-size: 20px;
+}
 .contact img {
   width: 70px;
   height: 70px;
@@ -107,6 +111,7 @@ footer {
   background-color: rgb(65, 63, 63);
   text-align: center;
   margin-top: 30px;
+
 }
 
 footer nav ul {
@@ -118,4 +123,19 @@ footer nav ul {
 
 footer nav ul li {
   padding: 0 10px;
+  
+}
+
+@media screen and (max-width: 480px) {
+  .prof_inner {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .prof_inner_text {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+  }
 }
