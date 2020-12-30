@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 300px;
+  background: rgb(8, 107, 53);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 80px;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+header span {
+  text-align: center;
+  font-size: 30px;
+}
+
+main {
+  flex: 1;
+  text-align: center;
+  background: rgb(245, 244, 244);
+}
+
+main nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-size: 32px;
+  /* position: sticky; */
+  /* top: 0; */
+  /* will-change: transform;
+  margin-top: -20px;
+  background-color: #fff;
+  z-index: 999; */
+}
+
+main nav ul li {
+  padding: 0 10px;
+  border: solid 1px;
+  background-color: rgb(109, 107, 107);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section h1 {
+  font-size: 64px;
+}
+
+.prof_inner {
+  display: flex;
+  justify-content: center;
+}
+
+.prof_inner img, .prof_inner p {
+  margin: 0 60px;
+}
+
+.prof_inner img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.prof_inner_text {
+  text-align: left;
+}
+
+.portfolio_innter {
+  display: flex;
+  flex-flow: row-reverse wrap-reverse;
+}
+
+.portfolio_list {
+  width: 20%;
+  height: 20%;
+  margin: 0 30px 20px 0;
+}
+
+.contact img {
+  width: 70px;
+  height: 70px;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+footer {
+  background-color: rgb(65, 63, 63);
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-size: 32px;
+}
+
+footer nav ul li {
+  padding: 0 10px;
+}
