@@ -119,6 +119,7 @@ ul {
 footer {
   background-color: rgb(65, 63, 63);
   text-align: center;
+  padding-top: 6px;
 }
 
 footer nav ul {
@@ -158,12 +159,12 @@ footer nav ul li img{
   }
 
   footer nav ul {
-    font-size: 3.8vw;
+    font-size: 3.6vw;
   }
 
-  footer nav li img {
-    width: 3.8vw;
-    height: 3,8vw;
+  footer nav ul li a img {
+    width: 3.6vw;
+    height: 3,6vw;
   }
 
   .prof_inner {
@@ -175,8 +176,6 @@ footer nav ul li img{
     text-align: center;
     margin-top: 20px;
   }
-
-
 }
 
 @media screen and (max-width: 480px) {
@@ -211,6 +210,4 @@ footer nav ul li img{
     width: 14vw;
     height: 14vw;
   }
-
-
 }
